@@ -28,6 +28,10 @@ Deploy files to an FTP server using GitHub actions
 
 Delete files not present in the local folder on the remote folder. Default `"false"`.
 
+### `no_perms`
+
+Don’t set file permissions. Can be useful when the remote is a Windows server. Default `"false"`.
+
 ### `exclude`
 
 Ignore file(s) and/or directorie(s). Default `""`.
